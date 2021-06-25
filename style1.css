@@ -14,7 +14,7 @@
   
   .desktop {
     height: 100vh;
-    background: url(https://wallpaperaccess.com/full/640971.jpg);
+    background: url(/src/pipos.png);
     background-position: center;
     background-size: cover;
   }
@@ -27,7 +27,7 @@
     bottom: 0;
     height: 43px;
     width: 100%;
-    background: #000080;
+    background: #BFBFBF;
   }
   
   .taskbar .icons-left {
