@@ -26,4 +26,8 @@ Kubernetes web app can run kubernetes command in the browser, it takes input as 
 To read the blog click [here](https://dev.to/niteshthapliyal/pip-os-webapp-which-is-home-of-technology-3mlo)
 
 
+## 📃 License
+
+[MIT](https://github.com/Nitesh-thapliyal/PIP-OS-WebAPP/blob/master/LICENSE)
+
 
