@@ -4,7 +4,7 @@
 
 PIP-OS is a CGI based web application which can serve all the functionalities of docker and Kubernetes running on Linux OS.
 
-The technologies that PIP-OS suports till now:
+**The technologies that PIP-OS suports till now:**
 
 - Docker
 - Kubernetes
