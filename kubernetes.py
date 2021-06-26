@@ -53,4 +53,32 @@ elif "show service" in query:
     cmd = "kubectl get svc --kubeconfig admin.conf "
     o = sp.getoutput(cmd)
     print(o)
+    
+elif "create service" in query:
+    cmd = "kubectl expose deployment web --port=8081 --type=NodePort --kubeconfig admin.conf "
+    o = sp.getoutput(cmd)
+    print(o)
+    
+elif "delete service" in query:
+    cmd = "kubectl delete svc web --kubeconfig admin.conf "
+    o = sp.getoutput(cmd)
+    print(o)
+    
+elif "describe service" in query:
+    cmd = "kubectl describe svc kubernetes --kubeconfig admin.conf "
+    o = sp.getoutput(cmd)
+    print(o)
+
+elif "five replica" in query :
+    cmd = "kubectl scale deployment web --replicas=5 --kubeconfig admin.conf "
+    o = sp.getoutput(cmd)
+    print(o)
+    
+elif "all resources" in query:
+    cmd = "sudo kubectl delete all --all --kubeconfig admin.conf"
+    o = sp.getoutput(cmd)
+    print(o)
+
+
+    
 
